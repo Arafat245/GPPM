@@ -73,7 +73,7 @@ class DataGenerator(object):
         # Assigning RID and generated time 
         for i in range(len(self.ZeroXData[0])): 
             for t in range(len(self.ZeroXData[0][i])): 
-                df = pd.concat([df, pd.DataFrame({'RID':int(i),'time':self.ZeroXData[0][i][t], 'time_gt':self.XData[0][i][t]})], ignore_index=True)  
+                df = pd.concat([df, pd.DataFrame({'RID':int(i),'time':self.ZeroXData[0][i][t], 'time_gt':self.XData[0][i][t]}, index=[0])], ignore_index=True)  
         # Assigning biomarkers values and zero-centered individual time points
         for b in range(self.Nbiom): 
             for i in range(len(self.ZeroXData[b])): 
