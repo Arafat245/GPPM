@@ -53,11 +53,11 @@ class DataGenerator(object):
         for i in range(self.Nbiom):
             self.ZeroXData.append([])
             for k in range(self.Nsubs):
-                self.ZeroXData[i].append(np.array(self.XData[i][k]) - np.float (self.XData[i][k][len(self.XData[i][k])-1]+self.XData[i][k][0])/2)
+                self.ZeroXData[i].append(np.array(self.XData[i][k]) - float (self.XData[i][k][len(self.XData[i][k])-1]+self.XData[i][k][0])/2)
 
         for i in range(self.Nbiom):
             for k in range(self.Nsubs):
-                self.XData[i][k] = np.array([np.float(l) for l in self.XData[i][k]])    
+                self.XData[i][k] = np.array([float(l) for l in self.XData[i][k]])    
 
 
     def f(self, X, L, k):
