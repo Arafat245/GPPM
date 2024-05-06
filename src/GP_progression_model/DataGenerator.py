@@ -1,6 +1,7 @@
 __author__ = 'mlorenzi'
 
 import numpy as np
+import math
 import random
 import matplotlib.pyplot as plt
 import pandas as pd
