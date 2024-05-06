@@ -274,7 +274,7 @@ class GP_Progression_Model(object):
 
                 if not save_fig:
                     if len(list_biom)>3:
-                        ax = fig.add_subplot((len(list_biom) - 1) / 3 + 1, 3, (bio_pos) + 1)
+                        ax = fig.add_subplot(math.ceil((len(list_biom) - 1) / 3) + 1, 3, (bio_pos) + 1)
                     else:
                         ax = fig.add_subplot(1, len(list_biom) , (bio_pos) + 1)
                 else:
