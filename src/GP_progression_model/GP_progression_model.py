@@ -91,13 +91,13 @@ class GP_Progression_Model(object):
                 x_data = ((self.model.time_reparameterization(self.x_torch)[biom]).detach().data.cpu().numpy())
             else:
                 x_data = ((self.model.time_reparameterization(self.x_torch)[biom]).detach().data.cpu().numpy()[:, 0])
-            if (np.float(np.min(x_data)) < x_min):
-                x_min = np.float(np.min(x_data))
-            if (np.float(np.max(x_data)) > x_max):
-                x_max = np.float(np.max(x_data))
+            if (float(np.min(x_data)) < x_min):
+                x_min = float(np.min(x_data))
+            if (float(np.max(x_data)) > x_max):
+                x_max = float(np.max(x_data))
 
         delta = (x_max-x_min)/5
-        x_range = Variable(torch.arange(x_min-delta,x_max + delta, np.float((x_max + 2*delta - x_min)/(2.0*len(self.x[0]))))).to(self.device)
+        x_range = Variable(torch.arange(x_min-delta,x_max + delta, float((x_max + 2*delta - x_min)/(2.0*len(self.x[0]))))).to(self.device)
         x_range = x_range.reshape(x_range.size()[0],1)
 
         ## constraints
@@ -248,17 +248,17 @@ class GP_Progression_Model(object):
             bio_id = np.where([self.names_biomarkers[i]==biomarker for i in range(self.N_biomarkers)])[0][0]
             x_data = (self.model.time_reparameterization(self.x_torch)[bio_id]).detach().data.cpu().numpy()
             y_data = (self.y_torch[bio_id]).detach().data.cpu().numpy()
-            if (np.float(np.min(x_data)) < x_min):
-                x_min = np.float(np.min(x_data))
-            if (np.float(np.max(x_data)) > x_max):
-                x_max = np.float(np.max(x_data))
+            if (float(np.min(x_data)) < x_min):
+                x_min = float(np.min(x_data))
+            if (float(np.max(x_data)) > x_max):
+                x_max = float(np.max(x_data))
             
-            if (np.float(np.min(y_data)) < y_min):
-                y_min = np.float(np.min(y_data))
-            if (np.float(np.max(y_data)) > y_max):
-                y_max = np.float(np.max(y_data))
+            if (float(np.min(y_data)) < y_min):
+                y_min = float(np.min(y_data))
+            if (float(np.max(y_data)) > y_max):
+                y_max = float(np.max(y_data))
 
-        x_range = Variable(torch.arange(x_min,x_max, np.float((x_max-x_min)/50)))
+        x_range = Variable(torch.arange(x_min,x_max, float((x_max-x_min)/50)))
         x_range = x_range.reshape(x_range.size()[0],1)
 
         new_x = self.Transform_subjects()
@@ -446,12 +446,12 @@ class GP_Progression_Model(object):
         x_max = float('-inf')
         for bio_pos,biom in enumerate(range(self.N_biomarkers)):
             x_data = ((self.model.time_reparameterization(self.x_torch)[biom]).detach().data.cpu().numpy())
-            if (np.float(np.min(x_data)) < x_min):
-                x_min = np.float(np.min(x_data))
-            if (np.float(np.max(x_data)) > x_max):
-                x_max = np.float(np.max(x_data))
+            if (float(np.min(x_data)) < x_min):
+                x_min = float(np.min(x_data))
+            if (float(np.max(x_data)) > x_max):
+                x_max = float(np.max(x_data))
 
-        x_range = Variable(torch.arange(x_min,x_max, np.float((x_max-x_min)/30)))
+        x_range = Variable(torch.arange(x_min,x_max, float((x_max-x_min)/30)))
         x_range = x_range.reshape(x_range.size()[0],1)
 
         predicted_time = []
@@ -502,7 +502,7 @@ class GP_Progression_Model(object):
             if np.nanmax(x_biom) > x_max:
                 x_max = np.nanmax(x_biom)
 
-        x_delta = np.float((x_max - x_min) / 30)
+        x_delta = float((x_max - x_min) / 30)
         x_range = Variable(torch.arange(x_min, x_max, x_delta))
         x_range = x_range.unsqueeze(1)
 
@@ -567,12 +567,12 @@ class GP_Progression_Model(object):
         x_max = float('-inf')
         for bio_pos,biomarker in enumerate(range(self.N_biomarkers)):
             x_data = ((self.model.time_reparameterization(self.x_torch)[biomarker]).detach().data.cpu().numpy())
-            if (np.float(np.min(x_data)) < x_min):
-                x_min = np.float(np.min(x_data))
-            if (np.float(np.max(x_data)) > x_max):
-                x_max = np.float(np.max(x_data))
+            if (float(np.min(x_data)) < x_min):
+                x_min = float(np.min(x_data))
+            if (float(np.max(x_data)) > x_max):
+                x_max = float(np.max(x_data))
 
-        x_range = Variable(torch.arange(x_min,x_max, np.float((x_max-x_min)/30)))
+        x_range = Variable(torch.arange(x_min,x_max, float((x_max-x_min)/30)))
         x_range = x_range.reshape(x_range.size()[0],1)
 
         optimum = []
@@ -625,17 +625,17 @@ class GP_Progression_Model(object):
             bio_id = np.where([self.names_biomarkers[i]==biomarker for i in range(self.N_biomarkers)])[0][0]
             x_data = (self.model.time_reparameterization(self.x_torch)[bio_id]).detach().data.cpu().numpy()
             y_data = (self.y_torch[bio_id]).detach().data.cpu().numpy()
-            if (np.float(np.min(x_data)) < x_min):
-                x_min = np.float(np.min(x_data))
-            if (np.float(np.max(x_data)) > x_max):
-                x_max = np.float(np.max(x_data))
+            if (float(np.min(x_data)) < x_min):
+                x_min = float(np.min(x_data))
+            if (float(np.max(x_data)) > x_max):
+                x_max = float(np.max(x_data))
 
-            if (np.float(np.min(y_data)) < y_min):
-                y_min = np.float(np.min(y_data))
-            if (np.float(np.max(y_data)) > y_max):
-                y_max = np.float(np.max(y_data))
+            if (float(np.min(y_data)) < y_min):
+                y_min = float(np.min(y_data))
+            if (float(np.max(y_data)) > y_max):
+                y_max = float(np.max(y_data))
 
-        x_range = Variable(torch.arange(x_min,x_max, np.float((x_max-x_min)/50)))
+        x_range = Variable(torch.arange(x_min,x_max, float((x_max-x_min)/50)))
         x_range = x_range.reshape(x_range.size()[0],1)
 
         new_x = self.Transform_subjects()
@@ -800,7 +800,7 @@ def Cost(target, predicted, predicted2, monotonicity, trade_off, device):
 
         total_ll += -0.5 * (x.size(0)*(torch.log(sigma)) + torch.sum((target[i] - x) ** 2)/(sigma))
 
-        monotonicity_Dx = np.float(monotonicity[i]) * Dx
+        monotonicity_Dx = float(monotonicity[i]) * Dx
 
         # x_relu = - trade_off * F.relu(-monotonicity_Dx.to(device))
 
