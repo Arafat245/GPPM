@@ -514,7 +514,7 @@ class GP_Progression_Model(object):
         x_shifted = x_range.data.cpu().numpy().squeeze() + df_data[list(('NORM_Time',) * len(x_range))]
 
         df_prob = pd.DataFrame(data=[], index=np.arange(x_range.shape[0] * df_data.shape[0]), columns=self.names_biomarkers)
-        print(df_prob.info)
+        print(df_prob.info())
         a = np.asarray((x_range.squeeze().data.numpy(),) * df_data.shape[0]).reshape(-1)
         b = np.asarray((np.arange(df_data.shape[0]),) * len(x_range)).T.reshape(-1)
         c = np.asarray((df_input[f"{id_var}"],) * len(x_range)).T.reshape(-1)
