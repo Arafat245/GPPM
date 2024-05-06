@@ -514,54 +514,61 @@ class GP_Progression_Model(object):
         x_shifted = x_range.data.cpu().numpy().squeeze() + df_data[list(('NORM_Time',) * len(x_range))]
 
         df_prob = pd.DataFrame(data=[], index=np.arange(x_range.shape[0] * df_data.shape[0]), columns=self.names_biomarkers)
-        df_prob[["Tested_Pos"]] = np.asarray((x_range.squeeze().data.numpy(),) * df_data.shape[0]).reshape(-1)
-        df_prob[["Instance"]] = np.asarray((np.arange(df_data.shape[0]),) * len(x_range)).T.reshape(-1)
-        df_prob[[f"{id_var}"]] = np.asarray((df_input[f"{id_var}"],) * len(x_range)).T.reshape(-1)
-        df_prob = df_prob.set_index([f'{id_var}', 'Instance', 'Tested_Pos']).sort_index(level=[f'{id_var}', 'Instance', 'Tested_Pos']).copy()
+        print(df_prob.info)
+        a = np.asarray((x_range.squeeze().data.numpy(),) * df_data.shape[0]).reshape(-1)
+        b = np.asarray((np.arange(df_data.shape[0]),) * len(x_range)).T.reshape(-1)
+        c = np.asarray((df_input[f"{id_var}"],) * len(x_range)).T.reshape(-1)
+        print(a.shape, b.shape, c.shape)
+        
+        # df_prob[["Tested_Pos"]] = np.asarray((x_range.squeeze().data.numpy(),) * df_data.shape[0]).reshape(-1)
+        # df_prob[["Instance"]] = np.asarray((np.arange(df_data.shape[0]),) * len(x_range)).T.reshape(-1)
+        # df_prob[[f"{id_var}"]] = np.asarray((df_input[f"{id_var}"],) * len(x_range)).T.reshape(-1)
+        # df_prob = df_prob.set_index([f'{id_var}', 'Instance', 'Tested_Pos']).sort_index(level=[f'{id_var}', 'Instance', 'Tested_Pos']).copy()
 
-        #TODO: Set to np.nan the prob for which x_shifted is outside the limits of the training
-        for biom_pos, biom_id in enumerate(self.names_biomarkers):
-            prob = None
-            num_iters = 200
-            for i in range(num_iters):  # Compute this 200 times
-                sc_biom = (df_data[[f'{biom_id}']] - self.y_mean_std[biom_pos][0]) / self.y_mean_std[biom_pos][1]
-                pred_test = x_shifted.apply(lambda x: self.model.branches[biom_pos][1](
-                    Variable(torch.Tensor(x.values)).to(self.device).unsqueeze(1))[:, 0].data.numpy(), axis=0)
-                noise = self.model.branches[self.N_biomarkers].sigma[biom_pos].detach().data.cpu().numpy()
-                error = ((pred_test - sc_biom.values) ** 2 / np.exp(noise))
-                if prob is None:
-                    prob = .5 * (1 * noise + error) / num_iters
-                else:
-                    prob += .5 * (1 * noise + error) / num_iters
-            tmp_prob = prob.copy()
-            tmp_prob.columns = x_range.squeeze().data.numpy()
-            tmp_prob = pd.melt(tmp_prob.T.reset_index(), id_vars='index').copy()
-            tmp_prob.rename(columns={'index': 'Tested_Pos', 'variable': f'Instance'}, inplace=True)
-            tmp_prob[[f'{id_var}']] = df_prob.reset_index()[[f'{id_var}']].values
-            tmp_prob = tmp_prob.set_index([f'{id_var}', 'Instance', 'Tested_Pos']).sort_index(
-                level=[f'{id_var}', 'Instance', 'Tested_Pos']).copy()
+        # #TODO: Set to np.nan the prob for which x_shifted is outside the limits of the training
+        # for biom_pos, biom_id in enumerate(self.names_biomarkers):
+            # prob = None
+            # num_iters = 200
+            # for i in range(num_iters):  # Compute this 200 times
+                # sc_biom = (df_data[[f'{biom_id}']] - self.y_mean_std[biom_pos][0]) / self.y_mean_std[biom_pos][1]
+                # pred_test = x_shifted.apply(lambda x: self.model.branches[biom_pos][1](
+                    # Variable(torch.Tensor(x.values)).to(self.device).unsqueeze(1))[:, 0].data.numpy(), axis=0)
+                # noise = self.model.branches[self.N_biomarkers].sigma[biom_pos].detach().data.cpu().numpy()
+                # error = ((pred_test - sc_biom.values) ** 2 / np.exp(noise))
+                # if prob is None:
+                    # prob = .5 * (1 * noise + error) / num_iters
+                # else:
+                    # prob += .5 * (1 * noise + error) / num_iters
+            # tmp_prob = prob.copy()
+            # tmp_prob.columns = x_range.squeeze().data.numpy()
+            # tmp_prob = pd.melt(tmp_prob.T.reset_index(), id_vars='index').copy()
+            # tmp_prob.rename(columns={'index': 'Tested_Pos', 'variable': f'Instance'}, inplace=True)
+            # tmp_prob[[f'{id_var}']] = df_prob.reset_index()[[f'{id_var}']].values
+            # tmp_prob = tmp_prob.set_index([f'{id_var}', 'Instance', 'Tested_Pos']).sort_index(
+                # level=[f'{id_var}', 'Instance', 'Tested_Pos']).copy()
 
-            df_prob[[biom_id]] = tmp_prob.values
+            # df_prob[[biom_id]] = tmp_prob.values
 
-        # Sum along the biomarkers
-        df_prob_sum = df_prob.sum(axis=1, skipna=True)
-        # Get minimum position for each instance
-        min_time = df_prob_sum.reset_index().groupby(['RID', 'Tested_Pos']).sum().drop('Instance', axis=1).reset_index(level='RID').groupby(['RID'])[0].idxmin()
-        # Since the values of the axis are already x_range, we can scale them directly
-        optim_time = min_time * self.x_mean_std[0][1] + self.x_mean_std[0][0]
-        optim_time = optim_time.reset_index().set_index('RID')
-        optim_time.rename(columns={0: 'Time Shift'}, inplace=True)
+        # # Sum along the biomarkers
+        # df_prob_sum = df_prob.sum(axis=1, skipna=True)
+        # # Get minimum position for each instance
+        # min_time = df_prob_sum.reset_index().groupby(['RID', 'Tested_Pos']).sum().drop('Instance', axis=1).reset_index(level='RID').groupby(['RID'])[0].idxmin()
+        # # Since the values of the axis are already x_range, we can scale them directly
+        # optim_time = min_time * self.x_mean_std[0][1] + self.x_mean_std[0][0]
+        # optim_time = optim_time.reset_index().set_index('RID')
+        # optim_time.rename(columns={0: 'Time Shift'}, inplace=True)
 
-        # df_data
-        output_time = df_data[[f'{id_var}', f'{time_var}']].set_index(f"{id_var}")
-        output_time[["Time Shift"]] = optim_time[["Time Shift"]].copy()
-        output_time = output_time[~output_time.index.duplicated(keep='first')]
-        # optim_time[[f'{id_var}']] = df_data[[f'{id_var}']].values
-        # optim_time[[f'{time_var}']] = df_data[[f'{time_var}']].values
-        # optim_time.drop('Instance', inplace=True, axis=1)
+        # # df_data
+        # output_time = df_data[[f'{id_var}', f'{time_var}']].set_index(f"{id_var}")
+        # output_time[["Time Shift"]] = optim_time[["Time Shift"]].copy()
+        # output_time = output_time[~output_time.index.duplicated(keep='first')]
+        # # optim_time[[f'{id_var}']] = df_data[[f'{id_var}']].values
+        # # optim_time[[f'{time_var}']] = df_data[[f'{time_var}']].values
+        # # optim_time.drop('Instance', inplace=True, axis=1)
 
-        # return optim_time
-        return output_time
+        # # return optim_time
+        # return output_time
+        return 0
 
     def Diagnostic_predictions(self, predictions, verbose = True, group = [], save_fig = ''):
         x_min = float('inf')
