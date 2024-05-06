@@ -131,7 +131,7 @@ class GP_Progression_Model(object):
                 x_torch_mb, y_torch_mb = self.Create_minibatch(list_id = list_id)
 
                 ## Optimization
-                tic = time.clock()
+                tic = time.perf_counter()
 
                 self.model.zero_grad()
                 pred = self.model(x_torch_mb)
@@ -146,7 +146,7 @@ class GP_Progression_Model(object):
                 L.backward()
                 GP_optimizer.step()
 
-                toc = time.clock()
+                toc = time.perf_counter()
 
                 if verbose and ((i==0) or (i+1)%50==0):
                     print('Iteration ' + str(i+1) + ' of ' + str(N_iterations) + ' || Cost (DKL): %.2f' % self.model.KL().item() +
@@ -171,7 +171,7 @@ class GP_Progression_Model(object):
 
                     x_torch_mb, y_torch_mb = self.Create_minibatch(list_id=list_id)
 
-                    tic = time.clock()
+                    tic = time.perf_counter()
 
                     self.model.zero_grad()
                     pred = self.model(x_torch_mb)
@@ -186,7 +186,7 @@ class GP_Progression_Model(object):
                     L.backward()
                     time_optimizer.step()
 
-                    toc = time.clock()
+                    toc = time.perf_counter()
 
                     if verbose and ((i==0) or (i+1)%50==0):
                         print('Iteration ' + str(i + 1) + ' of ' + str(N_iterations) + ' || Cost (DKL): %.2f' % self.model.KL().item() +
