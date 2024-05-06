@@ -1,0 +1,15 @@
+#!/bin/bash
+#OAR -l /cpu=3,walltime=15:00:00
+#OAR -p cputype='xeon'
+#OAR -O /home/sgarbari/GP_progression_model_V2/examples/ADNI/results_benchmark/CPU/log/%jobid%.output
+#OAR -E /home/sgarbari/GP_progression_model_V2/examples/ADNI/results_benchmark/CPU/log/%jobid%.error
+
+export PATH="/home/sgarbari/.conda/envs/gppm/bin/:$PATH"
+source activate gppm
+echo "Loading conda gppm environment"
+#type -a python
+#echo $PATH
+#python --version
+
+python ../../test_ADNI.py
+

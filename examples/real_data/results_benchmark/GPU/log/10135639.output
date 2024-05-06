@@ -1,0 +1,1020 @@
+Loading conda gppm environment
+cuda
+Optimization step: 1 out of 6
+ -- Regression --
+Iteration 1 of 200 - Cost (DKL): tensor(14.1026, device='cuda:0') - Cost (fit): tensor(3650.2107, device='cuda:0') - Cost (constr): tensor(1762.8447, device='cuda:0') - Time (each iter): 0.74s
+Iteration 50 of 200 - Cost (DKL): tensor(13.5805, device='cuda:0') - Cost (fit): tensor(2605.1494, device='cuda:0') - Cost (constr): tensor(1017.3504, device='cuda:0') - Time (each iter): 0.73s
+Iteration 100 of 200 - Cost (DKL): tensor(14.8655, device='cuda:0') - Cost (fit): tensor(2043.0508, device='cuda:0') - Cost (constr): tensor(382.0032, device='cuda:0') - Time (each iter): 0.73s
+Iteration 150 of 200 - Cost (DKL): tensor(17.3763, device='cuda:0') - Cost (fit): tensor(1902.5819, device='cuda:0') - Cost (constr): tensor(283.6042, device='cuda:0') - Time (each iter): 0.73s
+Iteration 200 of 200 - Cost (DKL): tensor(19.6377, device='cuda:0') - Cost (fit): tensor(2065.5415, device='cuda:0') - Cost (constr): tensor(254.9221, device='cuda:0') - Time (each iter): 0.72s
+ -- Time reparameterization --
+Iteration 1 of 200 - Cost (DKL): tensor(19.6377, device='cuda:0') - Cost (fit): tensor(1761.8776, device='cuda:0') - Cost (constr): tensor(208.6583, device='cuda:0') - Time (each iter): 0.73s
+Iteration 50 of 200 - Cost (DKL): tensor(19.6377, device='cuda:0') - Cost (fit): tensor(1862.0624, device='cuda:0') - Cost (constr): tensor(167.8618, device='cuda:0') - Time (each iter): 0.72s
+Iteration 100 of 200 - Cost (DKL): tensor(19.6377, device='cuda:0') - Cost (fit): tensor(2008.4966, device='cuda:0') - Cost (constr): tensor(157.4240, device='cuda:0') - Time (each iter): 0.72s
+Iteration 150 of 200 - Cost (DKL): tensor(19.6377, device='cuda:0') - Cost (fit): tensor(1580.2245, device='cuda:0') - Cost (constr): tensor(298.4135, device='cuda:0') - Time (each iter): 0.72s
+Iteration 200 of 200 - Cost (DKL): tensor(19.6377, device='cuda:0') - Cost (fit): tensor(1641.1028, device='cuda:0') - Cost (constr): tensor(229.4321, device='cuda:0') - Time (each iter): 0.71s
+Optimization step: 2 out of 6
+ -- Regression --
+Iteration 1 of 200 - Cost (DKL): tensor(19.6826, device='cuda:0') - Cost (fit): tensor(1713.1027, device='cuda:0') - Cost (constr): tensor(116.9410, device='cuda:0') - Time (each iter): 0.72s
+Iteration 50 of 200 - Cost (DKL): tensor(24.8258, device='cuda:0') - Cost (fit): tensor(1418.4315, device='cuda:0') - Cost (constr): tensor(206.4731, device='cuda:0') - Time (each iter): 0.72s
+Iteration 100 of 200 - Cost (DKL): tensor(28.3784, device='cuda:0') - Cost (fit): tensor(1286.3168, device='cuda:0') - Cost (constr): tensor(50.3570, device='cuda:0') - Time (each iter): 0.72s
+Iteration 150 of 200 - Cost (DKL): tensor(29.4839, device='cuda:0') - Cost (fit): tensor(1218.5532, device='cuda:0') - Cost (constr): tensor(156.8841, device='cuda:0') - Time (each iter): 0.72s
+Iteration 200 of 200 - Cost (DKL): tensor(31.6058, device='cuda:0') - Cost (fit): tensor(1151.7043, device='cuda:0') - Cost (constr): tensor(82.0643, device='cuda:0') - Time (each iter): 0.76s
+ -- Time reparameterization --
+Iteration 1 of 200 - Cost (DKL): tensor(31.6058, device='cuda:0') - Cost (fit): tensor(1295.7987, device='cuda:0') - Cost (constr): tensor(111.4524, device='cuda:0') - Time (each iter): 0.73s
+Iteration 50 of 200 - Cost (DKL): tensor(31.6058, device='cuda:0') - Cost (fit): tensor(1578.0718, device='cuda:0') - Cost (constr): tensor(117.0125, device='cuda:0') - Time (each iter): 0.72s
+Iteration 100 of 200 - Cost (DKL): tensor(31.6058, device='cuda:0') - Cost (fit): tensor(903.0988, device='cuda:0') - Cost (constr): tensor(57.0338, device='cuda:0') - Time (each iter): 0.72s
+Iteration 150 of 200 - Cost (DKL): tensor(31.6058, device='cuda:0') - Cost (fit): tensor(1027.7438, device='cuda:0') - Cost (constr): tensor(104.6256, device='cuda:0') - Time (each iter): 0.72s
+Iteration 200 of 200 - Cost (DKL): tensor(31.6058, device='cuda:0') - Cost (fit): tensor(1005.1352, device='cuda:0') - Cost (constr): tensor(80.1364, device='cuda:0') - Time (each iter): 0.72s
+Optimization step: 3 out of 6
+ -- Regression --
+Iteration 1 of 200 - Cost (DKL): tensor(31.5955, device='cuda:0') - Cost (fit): tensor(1349.0525, device='cuda:0') - Cost (constr): tensor(71.5187, device='cuda:0') - Time (each iter): 0.73s
+Iteration 50 of 200 - Cost (DKL): tensor(31.8196, device='cuda:0') - Cost (fit): tensor(839.2295, device='cuda:0') - Cost (constr): tensor(69.6039, device='cuda:0') - Time (each iter): 0.73s
+Iteration 100 of 200 - Cost (DKL): tensor(34.1290, device='cuda:0') - Cost (fit): tensor(874.7068, device='cuda:0') - Cost (constr): tensor(45.0940, device='cuda:0') - Time (each iter): 0.73s
+Iteration 150 of 200 - Cost (DKL): tensor(36.4050, device='cuda:0') - Cost (fit): tensor(586.7227, device='cuda:0') - Cost (constr): tensor(41.3827, device='cuda:0') - Time (each iter): 0.73s
+Iteration 200 of 200 - Cost (DKL): tensor(37.6267, device='cuda:0') - Cost (fit): tensor(588.3728, device='cuda:0') - Cost (constr): tensor(41.3895, device='cuda:0') - Time (each iter): 0.73s
+ -- Time reparameterization --
+Iteration 1 of 200 - Cost (DKL): tensor(37.6267, device='cuda:0') - Cost (fit): tensor(563.8780, device='cuda:0') - Cost (constr): tensor(62.8249, device='cuda:0') - Time (each iter): 0.72s
+Iteration 50 of 200 - Cost (DKL): tensor(37.6267, device='cuda:0') - Cost (fit): tensor(596.1838, device='cuda:0') - Cost (constr): tensor(62.1960, device='cuda:0') - Time (each iter): 0.71s
+Iteration 100 of 200 - Cost (DKL): tensor(37.6267, device='cuda:0') - Cost (fit): tensor(665.0818, device='cuda:0') - Cost (constr): tensor(41.4527, device='cuda:0') - Time (each iter): 0.72s
+Iteration 150 of 200 - Cost (DKL): tensor(37.6267, device='cuda:0') - Cost (fit): tensor(803.0358, device='cuda:0') - Cost (constr): tensor(63.6443, device='cuda:0') - Time (each iter): 0.71s
+Iteration 200 of 200 - Cost (DKL): tensor(37.6267, device='cuda:0') - Cost (fit): tensor(589.7781, device='cuda:0') - Cost (constr): tensor(61.8170, device='cuda:0') - Time (each iter): 0.72s
+Optimization step: 4 out of 6
+ -- Regression --
+Iteration 1 of 200 - Cost (DKL): tensor(37.5974, device='cuda:0') - Cost (fit): tensor(587.7079, device='cuda:0') - Cost (constr): tensor(41.3050, device='cuda:0') - Time (each iter): 0.71s
+Iteration 50 of 200 - Cost (DKL): tensor(38.2930, device='cuda:0') - Cost (fit): tensor(533.9882, device='cuda:0') - Cost (constr): tensor(59.9096, device='cuda:0') - Time (each iter): 0.72s
+Iteration 100 of 200 - Cost (DKL): tensor(41.6496, device='cuda:0') - Cost (fit): tensor(539.4783, device='cuda:0') - Cost (constr): tensor(65.0561, device='cuda:0') - Time (each iter): 0.73s
+Iteration 150 of 200 - Cost (DKL): tensor(41.3906, device='cuda:0') - Cost (fit): tensor(563.8689, device='cuda:0') - Cost (constr): tensor(46.1100, device='cuda:0') - Time (each iter): 0.71s
+Iteration 200 of 200 - Cost (DKL): tensor(43.8744, device='cuda:0') - Cost (fit): tensor(433.1314, device='cuda:0') - Cost (constr): tensor(41.1901, device='cuda:0') - Time (each iter): 0.71s
+ -- Time reparameterization --
+Iteration 1 of 200 - Cost (DKL): tensor(43.8744, device='cuda:0') - Cost (fit): tensor(575.0316, device='cuda:0') - Cost (constr): tensor(48.6740, device='cuda:0') - Time (each iter): 0.70s
+Iteration 50 of 200 - Cost (DKL): tensor(43.8744, device='cuda:0') - Cost (fit): tensor(485.1215, device='cuda:0') - Cost (constr): tensor(82.6669, device='cuda:0') - Time (each iter): 0.70s
+Iteration 100 of 200 - Cost (DKL): tensor(43.8744, device='cuda:0') - Cost (fit): tensor(474.6790, device='cuda:0') - Cost (constr): tensor(41.1818, device='cuda:0') - Time (each iter): 0.71s
+Iteration 150 of 200 - Cost (DKL): tensor(43.8744, device='cuda:0') - Cost (fit): tensor(527.3743, device='cuda:0') - Cost (constr): tensor(42.0040, device='cuda:0') - Time (each iter): 0.71s
+Iteration 200 of 200 - Cost (DKL): tensor(43.8744, device='cuda:0') - Cost (fit): tensor(514.2421, device='cuda:0') - Cost (constr): tensor(41.5203, device='cuda:0') - Time (each iter): 0.71s
+Optimization step: 5 out of 6
+ -- Regression --
+Iteration 1 of 200 - Cost (DKL): tensor(43.8602, device='cuda:0') - Cost (fit): tensor(551.0264, device='cuda:0') - Cost (constr): tensor(48.6915, device='cuda:0') - Time (each iter): 0.71s
+Iteration 50 of 200 - Cost (DKL): tensor(45.1837, device='cuda:0') - Cost (fit): tensor(577.7007, device='cuda:0') - Cost (constr): tensor(48.6694, device='cuda:0') - Time (each iter): 0.71s
+Iteration 100 of 200 - Cost (DKL): tensor(46.8698, device='cuda:0') - Cost (fit): tensor(434.7409, device='cuda:0') - Cost (constr): tensor(47.2776, device='cuda:0') - Time (each iter): 0.71s
+Iteration 150 of 200 - Cost (DKL): tensor(47.0903, device='cuda:0') - Cost (fit): tensor(399.1023, device='cuda:0') - Cost (constr): tensor(47.3840, device='cuda:0') - Time (each iter): 0.72s
+Iteration 200 of 200 - Cost (DKL): tensor(47.8075, device='cuda:0') - Cost (fit): tensor(531.8729, device='cuda:0') - Cost (constr): tensor(63.3380, device='cuda:0') - Time (each iter): 0.73s
+ -- Time reparameterization --
+Iteration 1 of 200 - Cost (DKL): tensor(47.8075, device='cuda:0') - Cost (fit): tensor(374.6130, device='cuda:0') - Cost (constr): tensor(42.5443, device='cuda:0') - Time (each iter): 0.71s
+Iteration 50 of 200 - Cost (DKL): tensor(47.8075, device='cuda:0') - Cost (fit): tensor(405.8196, device='cuda:0') - Cost (constr): tensor(46.2969, device='cuda:0') - Time (each iter): 0.71s
+Iteration 100 of 200 - Cost (DKL): tensor(47.8075, device='cuda:0') - Cost (fit): tensor(429.6921, device='cuda:0') - Cost (constr): tensor(41.6042, device='cuda:0') - Time (each iter): 0.72s
+Iteration 150 of 200 - Cost (DKL): tensor(47.8075, device='cuda:0') - Cost (fit): tensor(535.8984, device='cuda:0') - Cost (constr): tensor(53.3642, device='cuda:0') - Time (each iter): 0.71s
+Iteration 200 of 200 - Cost (DKL): tensor(47.8075, device='cuda:0') - Cost (fit): tensor(463.8040, device='cuda:0') - Cost (constr): tensor(42.7582, device='cuda:0') - Time (each iter): 0.71s
+Optimization step: 6 out of 6
+ -- Regression --
+Iteration 1 of 200 - Cost (DKL): tensor(47.8115, device='cuda:0') - Cost (fit): tensor(461.3391, device='cuda:0') - Cost (constr): tensor(45.8662, device='cuda:0') - Time (each iter): 0.72s
+Iteration 50 of 200 - Cost (DKL): tensor(48.4788, device='cuda:0') - Cost (fit): tensor(378.7903, device='cuda:0') - Cost (constr): tensor(44.1482, device='cuda:0') - Time (each iter): 0.71s
+Iteration 100 of 200 - Cost (DKL): tensor(50.3357, device='cuda:0') - Cost (fit): tensor(407.9695, device='cuda:0') - Cost (constr): tensor(45.8420, device='cuda:0') - Time (each iter): 0.71s
+Iteration 150 of 200 - Cost (DKL): tensor(50.4027, device='cuda:0') - Cost (fit): tensor(433.2824, device='cuda:0') - Cost (constr): tensor(41.4577, device='cuda:0') - Time (each iter): 0.71s
+Iteration 200 of 200 - Cost (DKL): tensor(50.7978, device='cuda:0') - Cost (fit): tensor(359.1562, device='cuda:0') - Cost (constr): tensor(43.6869, device='cuda:0') - Time (each iter): 0.72s
+Prediction for subject: 0
+Prediction for subject: 1
+Prediction for subject: 2
+Prediction for subject: 3
+Prediction for subject: 4
+Prediction for subject: 5
+Prediction for subject: 6
+Prediction for subject: 7
+Prediction for subject: 8
+Prediction for subject: 9
+Prediction for subject: 10
+Prediction for subject: 11
+Prediction for subject: 12
+Prediction for subject: 13
+Prediction for subject: 14
+Prediction for subject: 15
+Prediction for subject: 16
+Prediction for subject: 17
+Prediction for subject: 18
+Prediction for subject: 19
+Prediction for subject: 20
+Prediction for subject: 21
+Prediction for subject: 22
+Prediction for subject: 23
+Prediction for subject: 24
+Prediction for subject: 25
+Prediction for subject: 26
+Prediction for subject: 27
+Prediction for subject: 28
+Prediction for subject: 29
+Prediction for subject: 30
+Prediction for subject: 31
+Prediction for subject: 32
+Prediction for subject: 33
+Prediction for subject: 34
+Prediction for subject: 35
+Prediction for subject: 36
+Prediction for subject: 37
+Prediction for subject: 38
+Prediction for subject: 39
+Prediction for subject: 40
+Prediction for subject: 41
+Prediction for subject: 42
+Prediction for subject: 43
+Prediction for subject: 44
+Prediction for subject: 45
+Prediction for subject: 46
+Prediction for subject: 47
+Prediction for subject: 48
+Prediction for subject: 49
+Prediction for subject: 50
+Prediction for subject: 51
+Prediction for subject: 52
+Prediction for subject: 53
+Prediction for subject: 54
+Prediction for subject: 55
+Prediction for subject: 56
+Prediction for subject: 57
+Prediction for subject: 58
+Prediction for subject: 59
+Prediction for subject: 60
+Prediction for subject: 61
+Prediction for subject: 62
+Prediction for subject: 63
+Prediction for subject: 64
+Prediction for subject: 65
+Prediction for subject: 66
+Prediction for subject: 67
+Prediction for subject: 68
+Prediction for subject: 69
+Prediction for subject: 70
+Prediction for subject: 71
+Prediction for subject: 72
+Prediction for subject: 73
+Prediction for subject: 74
+Prediction for subject: 75
+Prediction for subject: 76
+Prediction for subject: 77
+Prediction for subject: 78
+Prediction for subject: 79
+Prediction for subject: 80
+Prediction for subject: 81
+Prediction for subject: 82
+Prediction for subject: 83
+Prediction for subject: 84
+Prediction for subject: 85
+--- Subject 0
+Max log-likelihood at time: 18.46511750728507
+### Biomarker 0 max log-lik time: [42.808006]
+### Biomarker 1 max log-lik time: [-5.8777742]
+### Biomarker 2 max log-lik time: [34.69371]
+### Biomarker 3 max log-lik time: [34.69371]
+### Biomarker 4 max log-lik time: [-13.992068]
+### Biomarker 5 max log-lik time: [34.69371]
+### Biomarker 6 max log-lik time: [-54.563553]
+### Biomarker 7 max log-lik time: [-87.02074]
+--- Subject 1
+Max log-likelihood at time: 42.80800920894015
+### Biomarker 0 max log-lik time: [42.808006]
+### Biomarker 1 max log-lik time: [132.06528]
+### Biomarker 2 max log-lik time: [59.036602]
+### Biomarker 3 max log-lik time: [59.036602]
+### Biomarker 4 max log-lik time: [-13.992068]
+### Biomarker 5 max log-lik time: [2.2365246]
+### Biomarker 6 max log-lik time: [-38.33496]
+### Biomarker 7 max log-lik time: [10.350821]
+--- Subject 2
+Max log-likelihood at time: 26.579414741170098
+### Biomarker 0 max log-lik time: [26.579414]
+### Biomarker 1 max log-lik time: [-5.8777742]
+### Biomarker 2 max log-lik time: [42.808006]
+### Biomarker 3 max log-lik time: [18.465117]
+### Biomarker 4 max log-lik time: [26.579414]
+### Biomarker 5 max log-lik time: [26.579414]
+### Biomarker 6 max log-lik time: [91.49378]
+### Biomarker 7 max log-lik time: [10.350821]
+--- Subject 3
+Max log-likelihood at time: 59.03660367671021
+### Biomarker 0 max log-lik time: [34.69371]
+### Biomarker 1 max log-lik time: [91.49378]
+### Biomarker 2 max log-lik time: [132.06528]
+### Biomarker 3 max log-lik time: [115.83668]
+### Biomarker 4 max log-lik time: [50.922302]
+### Biomarker 5 max log-lik time: [42.808006]
+### Biomarker 6 max log-lik time: [-46.449253]
+### Biomarker 7 max log-lik time: [75.2652]
+--- Subject 4
+Max log-likelihood at time: 42.80800920894015
+### Biomarker 0 max log-lik time: [59.036602]
+### Biomarker 1 max log-lik time: [18.465117]
+### Biomarker 2 max log-lik time: [83.379486]
+### Biomarker 3 max log-lik time: [59.036602]
+### Biomarker 4 max log-lik time: [26.579414]
+### Biomarker 5 max log-lik time: [26.579414]
+### Biomarker 6 max log-lik time: [-103.24933]
+### Biomarker 7 max log-lik time: [18.465117]
+--- Subject 5
+Max log-likelihood at time: -13.99206908997158
+### Biomarker 0 max log-lik time: [10.350821]
+### Biomarker 1 max log-lik time: [2.2365246]
+### Biomarker 2 max log-lik time: [-62.67785]
+### Biomarker 3 max log-lik time: [42.808006]
+### Biomarker 4 max log-lik time: [-103.24933]
+### Biomarker 5 max log-lik time: [-70.792145]
+### Biomarker 6 max log-lik time: [75.2652]
+### Biomarker 7 max log-lik time: [-46.449253]
+--- Subject 6
+Max log-likelihood at time: 18.46511750728507
+### Biomarker 0 max log-lik time: [-5.8777742]
+### Biomarker 1 max log-lik time: [-30.220665]
+### Biomarker 2 max log-lik time: [2.2365246]
+### Biomarker 3 max log-lik time: [10.350821]
+### Biomarker 4 max log-lik time: [50.922302]
+### Biomarker 5 max log-lik time: [59.036602]
+### Biomarker 6 max log-lik time: [99.608086]
+### Biomarker 7 max log-lik time: [42.808006]
+--- Subject 7
+Max log-likelihood at time: 50.922304104541716
+### Biomarker 0 max log-lik time: [132.06528]
+### Biomarker 1 max log-lik time: [132.06528]
+### Biomarker 2 max log-lik time: [75.2652]
+### Biomarker 3 max log-lik time: [132.06528]
+### Biomarker 4 max log-lik time: [2.2365246]
+### Biomarker 5 max log-lik time: [26.579414]
+### Biomarker 6 max log-lik time: [-70.792145]
+### Biomarker 7 max log-lik time: [10.350821]
+--- Subject 8
+Max log-likelihood at time: 10.350820565685474
+### Biomarker 0 max log-lik time: [2.2365246]
+### Biomarker 1 max log-lik time: [26.579414]
+### Biomarker 2 max log-lik time: [26.579414]
+### Biomarker 3 max log-lik time: [10.350821]
+### Biomarker 4 max log-lik time: [-22.106365]
+### Biomarker 5 max log-lik time: [-46.449253]
+### Biomarker 6 max log-lik time: [132.06528]
+### Biomarker 7 max log-lik time: [-30.220665]
+--- Subject 9
+Max log-likelihood at time: -46.44925568722823
+### Biomarker 0 max log-lik time: [-38.33496]
+### Biomarker 1 max log-lik time: [-54.563553]
+### Biomarker 2 max log-lik time: [-95.13504]
+### Biomarker 3 max log-lik time: [-38.33496]
+### Biomarker 4 max log-lik time: [-13.992068]
+### Biomarker 5 max log-lik time: [-70.792145]
+### Biomarker 6 max log-lik time: [-46.449253]
+### Biomarker 7 max log-lik time: [-38.33496]
+--- Subject 10
+Max log-likelihood at time: 18.46511750728507
+### Biomarker 0 max log-lik time: [2.2365246]
+### Biomarker 1 max log-lik time: [34.69371]
+### Biomarker 2 max log-lik time: [10.350821]
+### Biomarker 3 max log-lik time: [42.808006]
+### Biomarker 4 max log-lik time: [42.808006]
+### Biomarker 5 max log-lik time: [26.579414]
+### Biomarker 6 max log-lik time: [132.06528]
+### Biomarker 7 max log-lik time: [42.808006]
+--- Subject 11
+Max log-likelihood at time: -87.02074185665336
+### Biomarker 0 max log-lik time: [-95.13504]
+### Biomarker 1 max log-lik time: [-54.563553]
+### Biomarker 2 max log-lik time: [-103.24933]
+### Biomarker 3 max log-lik time: [-70.792145]
+### Biomarker 4 max log-lik time: [-87.02074]
+### Biomarker 5 max log-lik time: [-78.90645]
+### Biomarker 6 max log-lik time: [-103.24933]
+### Biomarker 7 max log-lik time: [-95.13504]
+--- Subject 12
+Max log-likelihood at time: -5.877774194370012
+### Biomarker 0 max log-lik time: [2.2365246]
+### Biomarker 1 max log-lik time: [-103.24933]
+### Biomarker 2 max log-lik time: [26.579414]
+### Biomarker 3 max log-lik time: [-38.33496]
+### Biomarker 4 max log-lik time: [2.2365246]
+### Biomarker 5 max log-lik time: [-22.106365]
+### Biomarker 6 max log-lik time: [-38.33496]
+### Biomarker 7 max log-lik time: [-62.67785]
+--- Subject 13
+Max log-likelihood at time: 34.6937108059134
+### Biomarker 0 max log-lik time: [115.83668]
+### Biomarker 1 max log-lik time: [2.2365246]
+### Biomarker 2 max log-lik time: [50.922302]
+### Biomarker 3 max log-lik time: [2.2365246]
+### Biomarker 4 max log-lik time: [-22.106365]
+### Biomarker 5 max log-lik time: [26.579414]
+### Biomarker 6 max log-lik time: [18.465117]
+### Biomarker 7 max log-lik time: [2.2365246]
+--- Subject 14
+Max log-likelihood at time: -46.44925568722823
+### Biomarker 0 max log-lik time: [-13.992068]
+### Biomarker 1 max log-lik time: [75.2652]
+### Biomarker 2 max log-lik time: [-5.8777742]
+### Biomarker 3 max log-lik time: [-54.563553]
+### Biomarker 4 max log-lik time: [-95.13504]
+### Biomarker 5 max log-lik time: [-78.90645]
+### Biomarker 6 max log-lik time: [-103.24933]
+### Biomarker 7 max log-lik time: [-78.90645]
+--- Subject 15
+Max log-likelihood at time: 34.6937108059134
+### Biomarker 0 max log-lik time: [10.350821]
+### Biomarker 1 max log-lik time: [115.83668]
+### Biomarker 2 max log-lik time: [-5.8777742]
+### Biomarker 3 max log-lik time: [34.69371]
+### Biomarker 4 max log-lik time: [34.69371]
+### Biomarker 5 max log-lik time: [67.150894]
+### Biomarker 6 max log-lik time: [-95.13504]
+### Biomarker 7 max log-lik time: [99.608086]
+--- Subject 16
+Max log-likelihood at time: -22.106366323856605
+### Biomarker 0 max log-lik time: [-30.220665]
+### Biomarker 1 max log-lik time: [-54.563553]
+### Biomarker 2 max log-lik time: [-38.33496]
+### Biomarker 3 max log-lik time: [-5.8777742]
+### Biomarker 4 max log-lik time: [-30.220665]
+### Biomarker 5 max log-lik time: [-70.792145]
+### Biomarker 6 max log-lik time: [-87.02074]
+### Biomarker 7 max log-lik time: [-95.13504]
+--- Subject 17
+Max log-likelihood at time: 42.80800920894015
+### Biomarker 0 max log-lik time: [115.83668]
+### Biomarker 1 max log-lik time: [18.465117]
+### Biomarker 2 max log-lik time: [34.69371]
+### Biomarker 3 max log-lik time: [42.808006]
+### Biomarker 4 max log-lik time: [50.922302]
+### Biomarker 5 max log-lik time: [-46.449253]
+### Biomarker 6 max log-lik time: [123.95097]
+### Biomarker 7 max log-lik time: [99.608086]
+--- Subject 18
+Max log-likelihood at time: 26.579414741170098
+### Biomarker 0 max log-lik time: [2.2365246]
+### Biomarker 1 max log-lik time: [83.379486]
+### Biomarker 2 max log-lik time: [26.579414]
+### Biomarker 3 max log-lik time: [18.465117]
+### Biomarker 4 max log-lik time: [50.922302]
+### Biomarker 5 max log-lik time: [34.69371]
+### Biomarker 6 max log-lik time: [115.83668]
+### Biomarker 7 max log-lik time: [59.036602]
+--- Subject 19
+Max log-likelihood at time: 18.46511750728507
+### Biomarker 0 max log-lik time: [18.465117]
+### Biomarker 1 max log-lik time: [59.036602]
+### Biomarker 2 max log-lik time: [2.2365246]
+### Biomarker 3 max log-lik time: [18.465117]
+### Biomarker 4 max log-lik time: [18.465117]
+### Biomarker 5 max log-lik time: [50.922302]
+### Biomarker 6 max log-lik time: [2.2365246]
+### Biomarker 7 max log-lik time: [83.379486]
+--- Subject 20
+Max log-likelihood at time: 91.4937879356834
+### Biomarker 0 max log-lik time: [132.06528]
+### Biomarker 1 max log-lik time: [107.72238]
+### Biomarker 2 max log-lik time: [91.49378]
+### Biomarker 3 max log-lik time: [83.379486]
+### Biomarker 4 max log-lik time: [83.379486]
+### Biomarker 5 max log-lik time: [91.49378]
+### Biomarker 6 max log-lik time: [-5.8777742]
+### Biomarker 7 max log-lik time: [42.808006]
+--- Subject 21
+Max log-likelihood at time: -22.106366323856605
+### Biomarker 0 max log-lik time: [-22.106365]
+### Biomarker 1 max log-lik time: [-46.449253]
+### Biomarker 2 max log-lik time: [-30.220665]
+### Biomarker 3 max log-lik time: [-22.106365]
+### Biomarker 4 max log-lik time: [-30.220665]
+### Biomarker 5 max log-lik time: [18.465117]
+### Biomarker 6 max log-lik time: [18.465117]
+### Biomarker 7 max log-lik time: [-46.449253]
+--- Subject 22
+Max log-likelihood at time: 18.46511750728507
+### Biomarker 0 max log-lik time: [18.465117]
+### Biomarker 1 max log-lik time: [91.49378]
+### Biomarker 2 max log-lik time: [18.465117]
+### Biomarker 3 max log-lik time: [-13.992068]
+### Biomarker 4 max log-lik time: [26.579414]
+### Biomarker 5 max log-lik time: [-46.449253]
+### Biomarker 6 max log-lik time: [107.72238]
+### Biomarker 7 max log-lik time: [26.579414]
+--- Subject 23
+Max log-likelihood at time: 2.2365242086567445
+### Biomarker 0 max log-lik time: [18.465117]
+### Biomarker 1 max log-lik time: [115.83668]
+### Biomarker 2 max log-lik time: [-13.992068]
+### Biomarker 3 max log-lik time: [10.350821]
+### Biomarker 4 max log-lik time: [-30.220665]
+### Biomarker 5 max log-lik time: [-62.67785]
+### Biomarker 6 max log-lik time: [132.06528]
+### Biomarker 7 max log-lik time: [-38.33496]
+--- Subject 24
+Max log-likelihood at time: 67.15090091059523
+### Biomarker 0 max log-lik time: [26.579414]
+### Biomarker 1 max log-lik time: [-22.106365]
+### Biomarker 2 max log-lik time: [42.808006]
+### Biomarker 3 max log-lik time: [26.579414]
+### Biomarker 4 max log-lik time: [107.72238]
+### Biomarker 5 max log-lik time: [91.49378]
+### Biomarker 6 max log-lik time: [2.2365246]
+### Biomarker 7 max log-lik time: [132.06528]
+--- Subject 25
+Max log-likelihood at time: 75.26519814448025
+### Biomarker 0 max log-lik time: [18.465117]
+### Biomarker 1 max log-lik time: [10.350821]
+### Biomarker 2 max log-lik time: [50.922302]
+### Biomarker 3 max log-lik time: [50.922302]
+### Biomarker 4 max log-lik time: [91.49378]
+### Biomarker 5 max log-lik time: [99.608086]
+### Biomarker 6 max log-lik time: [-13.992068]
+### Biomarker 7 max log-lik time: [132.06528]
+--- Subject 26
+Max log-likelihood at time: 67.15090091059523
+### Biomarker 0 max log-lik time: [123.95097]
+### Biomarker 1 max log-lik time: [42.808006]
+### Biomarker 2 max log-lik time: [59.036602]
+### Biomarker 3 max log-lik time: [59.036602]
+### Biomarker 4 max log-lik time: [83.379486]
+### Biomarker 5 max log-lik time: [67.150894]
+### Biomarker 6 max log-lik time: [75.2652]
+### Biomarker 7 max log-lik time: [50.922302]
+--- Subject 27
+Max log-likelihood at time: 18.46511750728507
+### Biomarker 0 max log-lik time: [-5.8777742]
+### Biomarker 1 max log-lik time: [42.808006]
+### Biomarker 2 max log-lik time: [34.69371]
+### Biomarker 3 max log-lik time: [59.036602]
+### Biomarker 4 max log-lik time: [-38.33496]
+### Biomarker 5 max log-lik time: [-62.67785]
+### Biomarker 6 max log-lik time: [34.69371]
+### Biomarker 7 max log-lik time: [-103.24933]
+--- Subject 28
+Max log-likelihood at time: 75.26519814448025
+### Biomarker 0 max log-lik time: [115.83668]
+### Biomarker 1 max log-lik time: [75.2652]
+### Biomarker 2 max log-lik time: [132.06528]
+### Biomarker 3 max log-lik time: [83.379486]
+### Biomarker 4 max log-lik time: [18.465117]
+### Biomarker 5 max log-lik time: [83.379486]
+### Biomarker 6 max log-lik time: [-78.90645]
+### Biomarker 7 max log-lik time: [2.2365246]
+--- Subject 29
+Max log-likelihood at time: -5.877774194370012
+### Biomarker 0 max log-lik time: [-30.220665]
+### Biomarker 1 max log-lik time: [-38.33496]
+### Biomarker 2 max log-lik time: [10.350821]
+### Biomarker 3 max log-lik time: [10.350821]
+### Biomarker 4 max log-lik time: [-54.563553]
+### Biomarker 5 max log-lik time: [-46.449253]
+### Biomarker 6 max log-lik time: [42.808006]
+### Biomarker 7 max log-lik time: [18.465117]
+--- Subject 30
+Max log-likelihood at time: -22.106366323856605
+### Biomarker 0 max log-lik time: [-22.106365]
+### Biomarker 1 max log-lik time: [26.579414]
+### Biomarker 2 max log-lik time: [-13.992068]
+### Biomarker 3 max log-lik time: [-5.8777742]
+### Biomarker 4 max log-lik time: [-103.24933]
+### Biomarker 5 max log-lik time: [-54.563553]
+### Biomarker 6 max log-lik time: [-103.24933]
+### Biomarker 7 max log-lik time: [18.465117]
+--- Subject 31
+Max log-likelihood at time: -22.106366323856605
+### Biomarker 0 max log-lik time: [10.350821]
+### Biomarker 1 max log-lik time: [26.579414]
+### Biomarker 2 max log-lik time: [-46.449253]
+### Biomarker 3 max log-lik time: [-87.02074]
+### Biomarker 4 max log-lik time: [26.579414]
+### Biomarker 5 max log-lik time: [-38.33496]
+### Biomarker 6 max log-lik time: [-78.90645]
+### Biomarker 7 max log-lik time: [18.465117]
+--- Subject 32
+Max log-likelihood at time: 10.350820565685474
+### Biomarker 0 max log-lik time: [2.2365246]
+### Biomarker 1 max log-lik time: [-38.33496]
+### Biomarker 2 max log-lik time: [42.808006]
+### Biomarker 3 max log-lik time: [-5.8777742]
+### Biomarker 4 max log-lik time: [18.465117]
+### Biomarker 5 max log-lik time: [67.150894]
+### Biomarker 6 max log-lik time: [132.06528]
+### Biomarker 7 max log-lik time: [42.808006]
+--- Subject 33
+Max log-likelihood at time: -13.99206908997158
+### Biomarker 0 max log-lik time: [-22.106365]
+### Biomarker 1 max log-lik time: [-38.33496]
+### Biomarker 2 max log-lik time: [18.465117]
+### Biomarker 3 max log-lik time: [-30.220665]
+### Biomarker 4 max log-lik time: [10.350821]
+### Biomarker 5 max log-lik time: [-62.67785]
+### Biomarker 6 max log-lik time: [67.150894]
+### Biomarker 7 max log-lik time: [2.2365246]
+--- Subject 34
+Max log-likelihood at time: 50.922304104541716
+### Biomarker 0 max log-lik time: [99.608086]
+### Biomarker 1 max log-lik time: [10.350821]
+### Biomarker 2 max log-lik time: [132.06528]
+### Biomarker 3 max log-lik time: [-22.106365]
+### Biomarker 4 max log-lik time: [59.036602]
+### Biomarker 5 max log-lik time: [59.036602]
+### Biomarker 6 max log-lik time: [-13.992068]
+### Biomarker 7 max log-lik time: [42.808006]
+--- Subject 35
+Max log-likelihood at time: 50.922304104541716
+### Biomarker 0 max log-lik time: [34.69371]
+### Biomarker 1 max log-lik time: [-30.220665]
+### Biomarker 2 max log-lik time: [26.579414]
+### Biomarker 3 max log-lik time: [2.2365246]
+### Biomarker 4 max log-lik time: [99.608086]
+### Biomarker 5 max log-lik time: [67.150894]
+### Biomarker 6 max log-lik time: [132.06528]
+### Biomarker 7 max log-lik time: [132.06528]
+--- Subject 36
+Max log-likelihood at time: 18.46511750728507
+### Biomarker 0 max log-lik time: [18.465117]
+### Biomarker 1 max log-lik time: [50.922302]
+### Biomarker 2 max log-lik time: [10.350821]
+### Biomarker 3 max log-lik time: [34.69371]
+### Biomarker 4 max log-lik time: [18.465117]
+### Biomarker 5 max log-lik time: [10.350821]
+### Biomarker 6 max log-lik time: [132.06528]
+### Biomarker 7 max log-lik time: [-103.24933]
+--- Subject 37
+Max log-likelihood at time: 67.15090091059523
+### Biomarker 0 max log-lik time: [123.95097]
+### Biomarker 1 max log-lik time: [132.06528]
+### Biomarker 2 max log-lik time: [67.150894]
+### Biomarker 3 max log-lik time: [83.379486]
+### Biomarker 4 max log-lik time: [59.036602]
+### Biomarker 5 max log-lik time: [42.808006]
+### Biomarker 6 max log-lik time: [83.379486]
+### Biomarker 7 max log-lik time: [50.922302]
+--- Subject 38
+Max log-likelihood at time: 83.37949070179837
+### Biomarker 0 max log-lik time: [10.350821]
+### Biomarker 1 max log-lik time: [123.95097]
+### Biomarker 2 max log-lik time: [59.036602]
+### Biomarker 3 max log-lik time: [34.69371]
+### Biomarker 4 max log-lik time: [99.608086]
+### Biomarker 5 max log-lik time: [107.72238]
+### Biomarker 6 max log-lik time: [-62.67785]
+### Biomarker 7 max log-lik time: [59.036602]
+--- Subject 39
+Max log-likelihood at time: 42.80800920894015
+### Biomarker 0 max log-lik time: [34.69371]
+### Biomarker 1 max log-lik time: [115.83668]
+### Biomarker 2 max log-lik time: [34.69371]
+### Biomarker 3 max log-lik time: [26.579414]
+### Biomarker 4 max log-lik time: [34.69371]
+### Biomarker 5 max log-lik time: [-5.8777742]
+### Biomarker 6 max log-lik time: [2.2365246]
+### Biomarker 7 max log-lik time: [34.69371]
+--- Subject 40
+Max log-likelihood at time: 26.579414741170098
+### Biomarker 0 max log-lik time: [18.465117]
+### Biomarker 1 max log-lik time: [10.350821]
+### Biomarker 2 max log-lik time: [50.922302]
+### Biomarker 3 max log-lik time: [18.465117]
+### Biomarker 4 max log-lik time: [18.465117]
+### Biomarker 5 max log-lik time: [-70.792145]
+### Biomarker 6 max log-lik time: [-95.13504]
+### Biomarker 7 max log-lik time: [-87.02074]
+--- Subject 41
+Max log-likelihood at time: -22.106366323856605
+### Biomarker 0 max log-lik time: [-46.449253]
+### Biomarker 1 max log-lik time: [-38.33496]
+### Biomarker 2 max log-lik time: [2.2365246]
+### Biomarker 3 max log-lik time: [10.350821]
+### Biomarker 4 max log-lik time: [-87.02074]
+### Biomarker 5 max log-lik time: [-54.563553]
+### Biomarker 6 max log-lik time: [-103.24933]
+### Biomarker 7 max log-lik time: [-70.792145]
+--- Subject 42
+Max log-likelihood at time: 50.922304104541716
+### Biomarker 0 max log-lik time: [2.2365246]
+### Biomarker 1 max log-lik time: [-5.8777742]
+### Biomarker 2 max log-lik time: [42.808006]
+### Biomarker 3 max log-lik time: [42.808006]
+### Biomarker 4 max log-lik time: [59.036602]
+### Biomarker 5 max log-lik time: [107.72238]
+### Biomarker 6 max log-lik time: [-46.449253]
+### Biomarker 7 max log-lik time: [132.06528]
+--- Subject 43
+Max log-likelihood at time: 10.350820565685474
+### Biomarker 0 max log-lik time: [-22.106365]
+### Biomarker 1 max log-lik time: [18.465117]
+### Biomarker 2 max log-lik time: [34.69371]
+### Biomarker 3 max log-lik time: [34.69371]
+### Biomarker 4 max log-lik time: [67.150894]
+### Biomarker 5 max log-lik time: [67.150894]
+### Biomarker 6 max log-lik time: [123.95097]
+### Biomarker 7 max log-lik time: [91.49378]
+--- Subject 44
+Max log-likelihood at time: 34.6937108059134
+### Biomarker 0 max log-lik time: [26.579414]
+### Biomarker 1 max log-lik time: [132.06528]
+### Biomarker 2 max log-lik time: [34.69371]
+### Biomarker 3 max log-lik time: [34.69371]
+### Biomarker 4 max log-lik time: [10.350821]
+### Biomarker 5 max log-lik time: [-5.8777742]
+### Biomarker 6 max log-lik time: [67.150894]
+### Biomarker 7 max log-lik time: [-13.992068]
+--- Subject 45
+Max log-likelihood at time: 26.579414741170098
+### Biomarker 0 max log-lik time: [34.69371]
+### Biomarker 1 max log-lik time: [75.2652]
+### Biomarker 2 max log-lik time: [34.69371]
+### Biomarker 3 max log-lik time: [67.150894]
+### Biomarker 4 max log-lik time: [2.2365246]
+### Biomarker 5 max log-lik time: [-38.33496]
+### Biomarker 6 max log-lik time: [26.579414]
+### Biomarker 7 max log-lik time: [34.69371]
+--- Subject 46
+Max log-likelihood at time: 59.03660367671021
+### Biomarker 0 max log-lik time: [59.036602]
+### Biomarker 1 max log-lik time: [42.808006]
+### Biomarker 2 max log-lik time: [50.922302]
+### Biomarker 3 max log-lik time: [67.150894]
+### Biomarker 4 max log-lik time: [42.808006]
+### Biomarker 5 max log-lik time: [42.808006]
+### Biomarker 6 max log-lik time: [132.06528]
+### Biomarker 7 max log-lik time: [107.72238]
+--- Subject 47
+Max log-likelihood at time: -5.877774194370012
+### Biomarker 0 max log-lik time: [-13.992068]
+### Biomarker 1 max log-lik time: [-22.106365]
+### Biomarker 2 max log-lik time: [-70.792145]
+### Biomarker 3 max log-lik time: [34.69371]
+### Biomarker 4 max log-lik time: [26.579414]
+### Biomarker 5 max log-lik time: [91.49378]
+### Biomarker 6 max log-lik time: [10.350821]
+### Biomarker 7 max log-lik time: [67.150894]
+--- Subject 48
+Max log-likelihood at time: 75.26519814448025
+### Biomarker 0 max log-lik time: [67.150894]
+### Biomarker 1 max log-lik time: [26.579414]
+### Biomarker 2 max log-lik time: [91.49378]
+### Biomarker 3 max log-lik time: [67.150894]
+### Biomarker 4 max log-lik time: [75.2652]
+### Biomarker 5 max log-lik time: [91.49378]
+### Biomarker 6 max log-lik time: [115.83668]
+### Biomarker 7 max log-lik time: [18.465117]
+--- Subject 49
+Max log-likelihood at time: 99.60808984613536
+### Biomarker 0 max log-lik time: [132.06528]
+### Biomarker 1 max log-lik time: [132.06528]
+### Biomarker 2 max log-lik time: [132.06528]
+### Biomarker 3 max log-lik time: [83.379486]
+### Biomarker 4 max log-lik time: [67.150894]
+### Biomarker 5 max log-lik time: [99.608086]
+### Biomarker 6 max log-lik time: [10.350821]
+### Biomarker 7 max log-lik time: [91.49378]
+--- Subject 50
+Max log-likelihood at time: -30.220665896025096
+### Biomarker 0 max log-lik time: [-30.220665]
+### Biomarker 1 max log-lik time: [-46.449253]
+### Biomarker 2 max log-lik time: [-30.220665]
+### Biomarker 3 max log-lik time: [-30.220665]
+### Biomarker 4 max log-lik time: [34.69371]
+### Biomarker 5 max log-lik time: [34.69371]
+### Biomarker 6 max log-lik time: [-13.992068]
+### Biomarker 7 max log-lik time: [42.808006]
+--- Subject 51
+Max log-likelihood at time: 18.46511750728507
+### Biomarker 0 max log-lik time: [34.69371]
+### Biomarker 1 max log-lik time: [10.350821]
+### Biomarker 2 max log-lik time: [-13.992068]
+### Biomarker 3 max log-lik time: [42.808006]
+### Biomarker 4 max log-lik time: [34.69371]
+### Biomarker 5 max log-lik time: [50.922302]
+### Biomarker 6 max log-lik time: [2.2365246]
+### Biomarker 7 max log-lik time: [-95.13504]
+--- Subject 52
+Max log-likelihood at time: 67.15090091059523
+### Biomarker 0 max log-lik time: [132.06528]
+### Biomarker 1 max log-lik time: [123.95097]
+### Biomarker 2 max log-lik time: [50.922302]
+### Biomarker 3 max log-lik time: [123.95097]
+### Biomarker 4 max log-lik time: [34.69371]
+### Biomarker 5 max log-lik time: [-54.563553]
+### Biomarker 6 max log-lik time: [34.69371]
+### Biomarker 7 max log-lik time: [42.808006]
+--- Subject 53
+Max log-likelihood at time: -13.99206908997158
+### Biomarker 0 max log-lik time: [-5.8777742]
+### Biomarker 1 max log-lik time: [-54.563553]
+### Biomarker 2 max log-lik time: [10.350821]
+### Biomarker 3 max log-lik time: [-46.449253]
+### Biomarker 4 max log-lik time: [42.808006]
+### Biomarker 5 max log-lik time: [-5.8777742]
+### Biomarker 6 max log-lik time: [-46.449253]
+### Biomarker 7 max log-lik time: [-46.449253]
+--- Subject 54
+Max log-likelihood at time: 10.350820565685474
+### Biomarker 0 max log-lik time: [26.579414]
+### Biomarker 1 max log-lik time: [42.808006]
+### Biomarker 2 max log-lik time: [2.2365246]
+### Biomarker 3 max log-lik time: [-13.992068]
+### Biomarker 4 max log-lik time: [-54.563553]
+### Biomarker 5 max log-lik time: [-46.449253]
+### Biomarker 6 max log-lik time: [-103.24933]
+### Biomarker 7 max log-lik time: [26.579414]
+--- Subject 55
+Max log-likelihood at time: 26.579414741170098
+### Biomarker 0 max log-lik time: [34.69371]
+### Biomarker 1 max log-lik time: [-46.449253]
+### Biomarker 2 max log-lik time: [-5.8777742]
+### Biomarker 3 max log-lik time: [-13.992068]
+### Biomarker 4 max log-lik time: [59.036602]
+### Biomarker 5 max log-lik time: [59.036602]
+### Biomarker 6 max log-lik time: [132.06528]
+### Biomarker 7 max log-lik time: [59.036602]
+--- Subject 56
+Max log-likelihood at time: 18.46511750728507
+### Biomarker 0 max log-lik time: [34.69371]
+### Biomarker 1 max log-lik time: [-13.992068]
+### Biomarker 2 max log-lik time: [-30.220665]
+### Biomarker 3 max log-lik time: [2.2365246]
+### Biomarker 4 max log-lik time: [26.579414]
+### Biomarker 5 max log-lik time: [42.808006]
+### Biomarker 6 max log-lik time: [2.2365246]
+### Biomarker 7 max log-lik time: [67.150894]
+--- Subject 57
+Max log-likelihood at time: 2.2365242086567445
+### Biomarker 0 max log-lik time: [2.2365246]
+### Biomarker 1 max log-lik time: [-87.02074]
+### Biomarker 2 max log-lik time: [-5.8777742]
+### Biomarker 3 max log-lik time: [2.2365246]
+### Biomarker 4 max log-lik time: [2.2365246]
+### Biomarker 5 max log-lik time: [-46.449253]
+### Biomarker 6 max log-lik time: [-95.13504]
+### Biomarker 7 max log-lik time: [26.579414]
+--- Subject 58
+Max log-likelihood at time: -13.99206908997158
+### Biomarker 0 max log-lik time: [-13.992068]
+### Biomarker 1 max log-lik time: [-38.33496]
+### Biomarker 2 max log-lik time: [2.2365246]
+### Biomarker 3 max log-lik time: [-13.992068]
+### Biomarker 4 max log-lik time: [-38.33496]
+### Biomarker 5 max log-lik time: [-38.33496]
+### Biomarker 6 max log-lik time: [132.06528]
+### Biomarker 7 max log-lik time: [-62.67785]
+--- Subject 59
+Max log-likelihood at time: 2.2365242086567445
+### Biomarker 0 max log-lik time: [2.2365246]
+### Biomarker 1 max log-lik time: [2.2365246]
+### Biomarker 2 max log-lik time: [-5.8777742]
+### Biomarker 3 max log-lik time: [18.465117]
+### Biomarker 4 max log-lik time: [-22.106365]
+### Biomarker 5 max log-lik time: [18.465117]
+### Biomarker 6 max log-lik time: [26.579414]
+### Biomarker 7 max log-lik time: [2.2365246]
+--- Subject 60
+Max log-likelihood at time: -95.13504376710532
+### Biomarker 0 max log-lik time: [-87.02074]
+### Biomarker 1 max log-lik time: [-62.67785]
+### Biomarker 2 max log-lik time: [-78.90645]
+### Biomarker 3 max log-lik time: [-103.24933]
+### Biomarker 4 max log-lik time: [-46.449253]
+### Biomarker 5 max log-lik time: [-5.8777742]
+### Biomarker 6 max log-lik time: [-46.449253]
+### Biomarker 7 max log-lik time: [-5.8777742]
+--- Subject 61
+Max log-likelihood at time: 18.46511750728507
+### Biomarker 0 max log-lik time: [26.579414]
+### Biomarker 1 max log-lik time: [-46.449253]
+### Biomarker 2 max log-lik time: [34.69371]
+### Biomarker 3 max log-lik time: [-13.992068]
+### Biomarker 4 max log-lik time: [50.922302]
+### Biomarker 5 max log-lik time: [59.036602]
+### Biomarker 6 max log-lik time: [18.465117]
+### Biomarker 7 max log-lik time: [83.379486]
+--- Subject 62
+Max log-likelihood at time: 42.80800920894015
+### Biomarker 0 max log-lik time: [18.465117]
+### Biomarker 1 max log-lik time: [59.036602]
+### Biomarker 2 max log-lik time: [-30.220665]
+### Biomarker 3 max log-lik time: [50.922302]
+### Biomarker 4 max log-lik time: [75.2652]
+### Biomarker 5 max log-lik time: [115.83668]
+### Biomarker 6 max log-lik time: [99.608086]
+### Biomarker 7 max log-lik time: [91.49378]
+--- Subject 63
+Max log-likelihood at time: 26.579414741170098
+### Biomarker 0 max log-lik time: [42.808006]
+### Biomarker 1 max log-lik time: [-5.8777742]
+### Biomarker 2 max log-lik time: [42.808006]
+### Biomarker 3 max log-lik time: [50.922302]
+### Biomarker 4 max log-lik time: [10.350821]
+### Biomarker 5 max log-lik time: [-46.449253]
+### Biomarker 6 max log-lik time: [26.579414]
+### Biomarker 7 max log-lik time: [-5.8777742]
+--- Subject 64
+Max log-likelihood at time: 59.03660367671021
+### Biomarker 0 max log-lik time: [83.379486]
+### Biomarker 1 max log-lik time: [-30.220665]
+### Biomarker 2 max log-lik time: [42.808006]
+### Biomarker 3 max log-lik time: [34.69371]
+### Biomarker 4 max log-lik time: [83.379486]
+### Biomarker 5 max log-lik time: [99.608086]
+### Biomarker 6 max log-lik time: [18.465117]
+### Biomarker 7 max log-lik time: [107.72238]
+--- Subject 65
+Max log-likelihood at time: 50.922304104541716
+### Biomarker 0 max log-lik time: [132.06528]
+### Biomarker 1 max log-lik time: [2.2365246]
+### Biomarker 2 max log-lik time: [107.72238]
+### Biomarker 3 max log-lik time: [26.579414]
+### Biomarker 4 max log-lik time: [42.808006]
+### Biomarker 5 max log-lik time: [26.579414]
+### Biomarker 6 max log-lik time: [-103.24933]
+### Biomarker 7 max log-lik time: [10.350821]
+--- Subject 66
+Max log-likelihood at time: -46.44925568722823
+### Biomarker 0 max log-lik time: [-54.563553]
+### Biomarker 1 max log-lik time: [10.350821]
+### Biomarker 2 max log-lik time: [2.2365246]
+### Biomarker 3 max log-lik time: [-62.67785]
+### Biomarker 4 max log-lik time: [-70.792145]
+### Biomarker 5 max log-lik time: [-70.792145]
+### Biomarker 6 max log-lik time: [132.06528]
+### Biomarker 7 max log-lik time: [18.465117]
+--- Subject 67
+Max log-likelihood at time: 42.80800920894015
+### Biomarker 0 max log-lik time: [50.922302]
+### Biomarker 1 max log-lik time: [132.06528]
+### Biomarker 2 max log-lik time: [26.579414]
+### Biomarker 3 max log-lik time: [18.465117]
+### Biomarker 4 max log-lik time: [10.350821]
+### Biomarker 5 max log-lik time: [-38.33496]
+### Biomarker 6 max log-lik time: [132.06528]
+### Biomarker 7 max log-lik time: [59.036602]
+--- Subject 68
+Max log-likelihood at time: 42.80800920894015
+### Biomarker 0 max log-lik time: [132.06528]
+### Biomarker 1 max log-lik time: [42.808006]
+### Biomarker 2 max log-lik time: [42.808006]
+### Biomarker 3 max log-lik time: [-5.8777742]
+### Biomarker 4 max log-lik time: [83.379486]
+### Biomarker 5 max log-lik time: [42.808006]
+### Biomarker 6 max log-lik time: [132.06528]
+### Biomarker 7 max log-lik time: [18.465117]
+--- Subject 69
+Max log-likelihood at time: 10.350820565685474
+### Biomarker 0 max log-lik time: [2.2365246]
+### Biomarker 1 max log-lik time: [-13.992068]
+### Biomarker 2 max log-lik time: [34.69371]
+### Biomarker 3 max log-lik time: [-5.8777742]
+### Biomarker 4 max log-lik time: [-38.33496]
+### Biomarker 5 max log-lik time: [-13.992068]
+### Biomarker 6 max log-lik time: [10.350821]
+### Biomarker 7 max log-lik time: [132.06528]
+--- Subject 70
+Max log-likelihood at time: 59.03660367671021
+### Biomarker 0 max log-lik time: [115.83668]
+### Biomarker 1 max log-lik time: [50.922302]
+### Biomarker 2 max log-lik time: [99.608086]
+### Biomarker 3 max log-lik time: [42.808006]
+### Biomarker 4 max log-lik time: [18.465117]
+### Biomarker 5 max log-lik time: [10.350821]
+### Biomarker 6 max log-lik time: [132.06528]
+### Biomarker 7 max log-lik time: [-13.992068]
+--- Subject 71
+Max log-likelihood at time: 26.579414741170098
+### Biomarker 0 max log-lik time: [18.465117]
+### Biomarker 1 max log-lik time: [-46.449253]
+### Biomarker 2 max log-lik time: [42.808006]
+### Biomarker 3 max log-lik time: [26.579414]
+### Biomarker 4 max log-lik time: [42.808006]
+### Biomarker 5 max log-lik time: [83.379486]
+### Biomarker 6 max log-lik time: [10.350821]
+### Biomarker 7 max log-lik time: [10.350821]
+--- Subject 72
+Max log-likelihood at time: 18.46511750728507
+### Biomarker 0 max log-lik time: [18.465117]
+### Biomarker 1 max log-lik time: [34.69371]
+### Biomarker 2 max log-lik time: [34.69371]
+### Biomarker 3 max log-lik time: [18.465117]
+### Biomarker 4 max log-lik time: [-13.992068]
+### Biomarker 5 max log-lik time: [34.69371]
+### Biomarker 6 max log-lik time: [-22.106365]
+### Biomarker 7 max log-lik time: [-78.90645]
+--- Subject 73
+Max log-likelihood at time: 42.80800920894015
+### Biomarker 0 max log-lik time: [34.69371]
+### Biomarker 1 max log-lik time: [123.95097]
+### Biomarker 2 max log-lik time: [42.808006]
+### Biomarker 3 max log-lik time: [18.465117]
+### Biomarker 4 max log-lik time: [75.2652]
+### Biomarker 5 max log-lik time: [59.036602]
+### Biomarker 6 max log-lik time: [26.579414]
+### Biomarker 7 max log-lik time: [50.922302]
+--- Subject 74
+Max log-likelihood at time: 115.83668431390541
+### Biomarker 0 max log-lik time: [34.69371]
+### Biomarker 1 max log-lik time: [34.69371]
+### Biomarker 2 max log-lik time: [83.379486]
+### Biomarker 3 max log-lik time: [83.379486]
+### Biomarker 4 max log-lik time: [132.06528]
+### Biomarker 5 max log-lik time: [123.95097]
+### Biomarker 6 max log-lik time: [132.06528]
+### Biomarker 7 max log-lik time: [132.06528]
+--- Subject 75
+Max log-likelihood at time: 59.03660367671021
+### Biomarker 0 max log-lik time: [26.579414]
+### Biomarker 1 max log-lik time: [67.150894]
+### Biomarker 2 max log-lik time: [26.579414]
+### Biomarker 3 max log-lik time: [132.06528]
+### Biomarker 4 max log-lik time: [67.150894]
+### Biomarker 5 max log-lik time: [42.808006]
+### Biomarker 6 max log-lik time: [75.2652]
+### Biomarker 7 max log-lik time: [107.72238]
+--- Subject 76
+Max log-likelihood at time: 2.2365242086567445
+### Biomarker 0 max log-lik time: [-13.992068]
+### Biomarker 1 max log-lik time: [-5.8777742]
+### Biomarker 2 max log-lik time: [18.465117]
+### Biomarker 3 max log-lik time: [-13.992068]
+### Biomarker 4 max log-lik time: [50.922302]
+### Biomarker 5 max log-lik time: [42.808006]
+### Biomarker 6 max log-lik time: [-87.02074]
+### Biomarker 7 max log-lik time: [34.69371]
+--- Subject 77
+Max log-likelihood at time: 42.80800920894015
+### Biomarker 0 max log-lik time: [2.2365246]
+### Biomarker 1 max log-lik time: [-5.8777742]
+### Biomarker 2 max log-lik time: [67.150894]
+### Biomarker 3 max log-lik time: [34.69371]
+### Biomarker 4 max log-lik time: [99.608086]
+### Biomarker 5 max log-lik time: [91.49378]
+### Biomarker 6 max log-lik time: [132.06528]
+### Biomarker 7 max log-lik time: [91.49378]
+--- Subject 78
+Max log-likelihood at time: 83.37949070179837
+### Biomarker 0 max log-lik time: [10.350821]
+### Biomarker 1 max log-lik time: [26.579414]
+### Biomarker 2 max log-lik time: [83.379486]
+### Biomarker 3 max log-lik time: [75.2652]
+### Biomarker 4 max log-lik time: [83.379486]
+### Biomarker 5 max log-lik time: [123.95097]
+### Biomarker 6 max log-lik time: [132.06528]
+### Biomarker 7 max log-lik time: [132.06528]
+--- Subject 79
+Max log-likelihood at time: -5.877774194370012
+### Biomarker 0 max log-lik time: [2.2365246]
+### Biomarker 1 max log-lik time: [-30.220665]
+### Biomarker 2 max log-lik time: [-22.106365]
+### Biomarker 3 max log-lik time: [-22.106365]
+### Biomarker 4 max log-lik time: [50.922302]
+### Biomarker 5 max log-lik time: [83.379486]
+### Biomarker 6 max log-lik time: [10.350821]
+### Biomarker 7 max log-lik time: [50.922302]
+--- Subject 80
+Max log-likelihood at time: -13.99206908997158
+### Biomarker 0 max log-lik time: [-13.992068]
+### Biomarker 1 max log-lik time: [-30.220665]
+### Biomarker 2 max log-lik time: [-30.220665]
+### Biomarker 3 max log-lik time: [18.465117]
+### Biomarker 4 max log-lik time: [-5.8777742]
+### Biomarker 5 max log-lik time: [-30.220665]
+### Biomarker 6 max log-lik time: [115.83668]
+### Biomarker 7 max log-lik time: [-87.02074]
+--- Subject 81
+Max log-likelihood at time: 75.26519814448025
+### Biomarker 0 max log-lik time: [50.922302]
+### Biomarker 1 max log-lik time: [42.808006]
+### Biomarker 2 max log-lik time: [75.2652]
+### Biomarker 3 max log-lik time: [59.036602]
+### Biomarker 4 max log-lik time: [59.036602]
+### Biomarker 5 max log-lik time: [99.608086]
+### Biomarker 6 max log-lik time: [-87.02074]
+### Biomarker 7 max log-lik time: [59.036602]
+--- Subject 82
+Max log-likelihood at time: -78.90644929933526
+### Biomarker 0 max log-lik time: [-78.90645]
+### Biomarker 1 max log-lik time: [10.350821]
+### Biomarker 2 max log-lik time: [-78.90645]
+### Biomarker 3 max log-lik time: [-103.24933]
+### Biomarker 4 max log-lik time: [-62.67785]
+### Biomarker 5 max log-lik time: [-54.563553]
+### Biomarker 6 max log-lik time: [-103.24933]
+### Biomarker 7 max log-lik time: [-62.67785]
+--- Subject 83
+Max log-likelihood at time: 59.03660367671021
+### Biomarker 0 max log-lik time: [34.69371]
+### Biomarker 1 max log-lik time: [2.2365246]
+### Biomarker 2 max log-lik time: [83.379486]
+### Biomarker 3 max log-lik time: [42.808006]
+### Biomarker 4 max log-lik time: [91.49378]
+### Biomarker 5 max log-lik time: [34.69371]
+### Biomarker 6 max log-lik time: [67.150894]
+### Biomarker 7 max log-lik time: [132.06528]
+--- Subject 84
+Max log-likelihood at time: 50.922304104541716
+### Biomarker 0 max log-lik time: [18.465117]
+### Biomarker 1 max log-lik time: [132.06528]
+### Biomarker 2 max log-lik time: [42.808006]
+### Biomarker 3 max log-lik time: [18.465117]
+### Biomarker 4 max log-lik time: [75.2652]
+### Biomarker 5 max log-lik time: [83.379486]
+### Biomarker 6 max log-lik time: [59.036602]
+### Biomarker 7 max log-lik time: [99.608086]
+--- Subject 85
+Max log-likelihood at time: 59.03660367671021
+### Biomarker 0 max log-lik time: [50.922302]
+### Biomarker 1 max log-lik time: [2.2365246]
+### Biomarker 2 max log-lik time: [34.69371]
+### Biomarker 3 max log-lik time: [50.922302]
+### Biomarker 4 max log-lik time: [115.83668]
+### Biomarker 5 max log-lik time: [42.808006]
+### Biomarker 6 max log-lik time: [132.06528]
+### Biomarker 7 max log-lik time: [115.83668]

@@ -1,0 +1,34 @@
+package:
+  name: gppm
+  version: 2.0.0
+
+source:
+  path: ../..
+
+build:
+  number: 0
+
+about:
+  home:   gpprogressionmodel.inria.fr 
+  license: proprietary Inria license
+  summary: Gaussian process-based disease progression modelling and time-shift estimation. The software estimates a long term progression model from short term observations in a group of individuals.
+
+requirements:
+  host:
+    - python =3.7
+  run:
+    - python =3.7
+    - pytorch =1.3
+    - numpy =1.17
+    - matplotlib =3.1
+    - seaborn
+    - pandas
+    - scikit-learn
+
+test:
+  source_files:
+    - examples
+  imports:
+    - GP_progression_model
+  # commands:
+  #   - nosetests tst -x -s -v

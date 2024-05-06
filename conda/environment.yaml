@@ -1,0 +1,13 @@
+name: gppm
+channels:
+  - defaults
+  - pytorch
+dependencies:
+  - python =3.7
+  - pytorch =1.3
+  - nose
+  - numpy =1.17
+  - matplotlib =3.1
+  - seaborn
+  - pandas
+  - scikit-learn
