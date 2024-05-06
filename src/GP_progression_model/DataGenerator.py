@@ -24,7 +24,7 @@ class DataGenerator(object):
         for i in range(Nbiom):
             tot_range = (interval[1]-interval[0])/5
             shift = np.random.randint(interval[0]+tot_range, interval[1]-tot_range)
-            self.shiftData.append([shift + l for l in range(np.int(np.float(interval[0])/2), np.int(np.float(interval[1])/2))])
+            self.shiftData.append([shift + l for l in range(int(float(interval[0])/2), int(float(interval[1])/2))])
             self.model.append(self.f(self.shiftData[i], param[i][0], param[i][1]))
             self.time_shift.append(tot_range - shift + 1)
             #self.model.append(self.f(range(interval[0], interval[1]), param[i][0], param[i][1]))
